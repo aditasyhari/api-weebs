@@ -23,7 +23,7 @@ app.use('/',(req,res)=>{
 app.use('*',(req,res) =>{
     res.json({
         status: 'not found path',
-        message: 'read the docs here https://github.com/Kaede-No-Ki/otakudesu-rest-api'
+        message: 'cheers'
     })
 })
 app.listen(port, () => {
